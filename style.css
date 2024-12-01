@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #aa1818; /* Warna merah */
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Navigation styling */
+.nav {
+    display: flex;
+    gap: 10px; /* Jarak antar tombol */
+}
+
+/* Button styling */
+.nav-button {
+    background-color: white;
+    color: #aa1818;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #c7c7c783; /* Warna hover */
+}
+
+.konten{
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 900px;
+    background: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.translator_property{
+    border: 1px solid #c7c7c783;
+} 
+.translator_property .nuv_item{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    background: #aa1818;
+}
+.translator_property .nuv_item li select{
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #aa1818;
+    transition: all .3s ease-out;
+}
+.translator_property .nuv_item li select:hover{
+    color: #111;
+}
+.bx-transfer{
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.bx-transfer:hover{
+    color: #111;
+}
+.write_box{
+    display: flex;
+}
+.Property_form, .Property_trans{
+    width: 100%;
+    position: relative;
+}
+.write_box textarea{
+    width: 100%;
+    height: 250px;
+    border-style: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #606060;
+    position: relative;
+}
+.write_box textarea:nth-child(1){
+    border: 1px solid #aa1818;
+}
+.write_box .icons{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.icons .bx{
+    width: 35px;
+    height: 35px;
+    background: none;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+}
+.icons .bx:hover{
+    background: #606060;
+    color: wheat;
+    transition: all .3s ease-out;
+}
+.code_length{
+    font-size: 18px;
+}
