@@ -45,6 +45,13 @@
     background-color: #c7c7c783; /* Warna hover */
 }
 
+p{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .konten{
     height: 65vh;
     background: #fff;
