@@ -44,14 +44,13 @@
 .nav-button:hover {
     background-color: #c7c7c783; /* Warna hover */
 }
-
 p{
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #585858;
 }
-
 .konten{
     height: 65vh;
     background: #fff;
@@ -151,4 +150,21 @@ p{
 }
 .code_length{
     font-size: 18px;
+}
+
+.footer {
+    background-color: #aa1818;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.sub-footer{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    background: #aa1818;
 }
