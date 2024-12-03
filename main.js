@@ -1,4 +1,4 @@
-let langOption = document.querySelectorAll('select');
+let langOption = document.querySelectorAll('.select');
 let fromText   = document.querySelector('.fromText');
 let transText  = document.querySelector('.toTranslate');
 let fromVoice  = document.querySelector('.from');
