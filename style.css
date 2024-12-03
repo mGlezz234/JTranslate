@@ -13,6 +13,21 @@
     background-color: #aa1818; /* Warna merah */
     padding: 10px 20px;
     color: white;
+    justify-content: space-between;
+}
+
+select{
+    outline: none;
+    border-style: none;
+    border-radius: 1px;
+    padding: 3px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #aa1818;
+    transition: all .3s ease-out;
+    text-align: center;
+    border:1px solid #fff;
 }
 
 /* Logo styling */
@@ -164,7 +179,7 @@ p{
     font-weight: bold;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     color: white;
     background: #aa1818;
 }
